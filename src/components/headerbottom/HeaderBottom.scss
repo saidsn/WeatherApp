@@ -1,0 +1,8 @@
+.button__area {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  & > span:nth-child(odd) {
+    font-size: 2rem;
+  }
+}
